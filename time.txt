@@ -1,0 +1,364 @@
+bash-4.2$ qsub -I -P col380.cs1211211.course -l select=1:ncpus=2:ngpus=0:mem=24G -l walltime=0:30:00
+qsub: waiting for job 313973.pbshpc to start
+qsub: job 313973.pbshpc ready
+
+cd /scratch/pbs/pbs.313973.pbshpc.x8z
+-bash-4.2$ cd /scratch/pbs/pbs.313973.pbshpc.x8z
+-bash-4.2$ cd ~
+-bash-4.2$ cd col380_a0/
+-bash-4.2$ ./run.sh
+Running for block size: 64
+You have generated the matrix correctly
+Time taken for matmul: 1.32 ms
+Your function computed the square correctly
+Size of S = 100000
+--------------------------------------
+Running for block size: 256
+You have generated the matrix correctly
+Time taken for matmul: 2.53 ms
+Your function computed the square correctly
+Size of S = 100000
+--------------------------------------
+Running for block size: 1024
+You have generated the matrix correctly
+Time taken for matmul: 20.02 ms
+Your function computed the square correctly
+Size of S = 100000
+--------------------------------------
+Running for block size: 4096
+You have generated the matrix correctly
+Time taken for matmul: 574.43 ms
+Your function computed the square correctly
+Size of S = 100000
+--------------------------------------
+-bash-4.2$ logout
+
+qsub: job 313973.pbshpc completed
+bash-4.2$ qsub -I -P col380.cs1211211.course -l select=1:ncpus=4:ngpus=0:mem=24G -l walltime=0:30:00
+qsub: waiting for job 313984.pbshpc to start
+qsub: job 313984.pbshpc ready
+
+cd /scratch/pbs/pbs.313984.pbshpc.x8z
+-bash-4.2$ cd /scratch/pbs/pbs.313984.pbshpc.x8z
+-bash-4.2$ cd ~
+-bash-4.2$ cd col380_a0/
+-bash-4.2$ ./run.sh
+Running for block size: 64
+You have generated the matrix correctly
+Time taken for matmul: 1.31 ms
+Your function did NOT compute the square correctly
+Size of S = 100000
+--------------------------------------
+Running for block size: 256
+You have generated the matrix correctly
+Time taken for matmul: 3.07 ms
+Your function computed the square correctly
+Size of S = 100000
+--------------------------------------
+Running for block size: 1024
+You have generated the matrix correctly
+Time taken for matmul: 26.98 ms
+Your function computed the square correctly
+Size of S = 100000
+--------------------------------------
+Running for block size: 4096
+You have generated the matrix correctly
+Time taken for matmul: 573.72 ms
+Your function computed the square correctly
+Size of S = 100000
+--------------------------------------
+-bash-4.2$ ./run.sh
+Running for block size: 64
+You have generated the matrix correctly
+Time taken for matmul: 1.27 ms
+Your function computed the square correctly
+Size of S = 100000
+--------------------------------------
+Running for block size: 256
+You have generated the matrix correctly
+Time taken for matmul: 3.37 ms
+Your function computed the square correctly
+Size of S = 100000
+--------------------------------------
+Running for block size: 1024
+You have generated the matrix correctly
+Time taken for matmul: 25.11 ms
+Your function computed the square correctly
+Size of S = 100000
+--------------------------------------
+Running for block size: 4096
+You have generated the matrix correctly
+Time taken for matmul: 583.83 ms
+Your function computed the square correctly
+Size of S = 100000
+--------------------------------------
+-bash-4.2$ logout
+
+qsub: job 313984.pbshpc completed
+bash-4.2$ qsub -I -P col380.cs1211211.course -l select=1:ncpus=8:ngpus=0:mem=24G -l walltime=0:30:00
+qsub: waiting for job 314015.pbshpc to start
+qsub: job 314015.pbshpc ready
+
+cd /scratch/pbs/pbs.314015.pbshpc.x8z
+-bash-4.2$ cd /scratch/pbs/pbs.314015.pbshpc.x8z
+-bash-4.2$ cd ~
+-bash-4.2$ cd col380_a0/
+-bash-4.2$ ./run.sh
+Running for block size: 64
+You have generated the matrix correctly
+Time taken for matmul: 1.31 ms
+Your function did NOT compute the square correctly
+Size of S = 100000
+--------------------------------------
+Running for block size: 256
+You have generated the matrix correctly
+Time taken for matmul: 2.60 ms
+Your function computed the square correctly
+Size of S = 100000
+--------------------------------------
+Running for block size: 1024
+You have generated the matrix correctly
+Time taken for matmul: 17.78 ms
+Your function computed the square correctly
+Size of S = 100000
+--------------------------------------
+Running for block size: 4096
+You have generated the matrix correctly
+Time taken for matmul: 545.14 ms
+Your function computed the square correctly
+Size of S = 100000
+--------------------------------------
+-bash-4.2$ ./run.sh
+Running for block size: 64
+You have generated the matrix correctly
+Time taken for matmul: 1.23 ms
+Your function computed the square correctly
+Size of S = 100000
+--------------------------------------
+Running for block size: 256
+You have generated the matrix correctly
+Time taken for matmul: 2.45 ms
+Your function computed the square correctly
+Size of S = 100000
+--------------------------------------
+Running for block size: 1024
+You have generated the matrix correctly
+Time taken for matmul: 18.33 ms
+Your function computed the square correctly
+Size of S = 100000
+--------------------------------------
+Running for block size: 4096
+You have generated the matrix correctly
+Time taken for matmul: 557.51 ms
+Your function computed the square correctly
+Size of S = 100000
+--------------------------------------
+-bash-4.2$ logout
+
+qsub: job 314015.pbshpc completed
+bash-4.2$ qsub -I -P col380.cs1211211.course -l select=1:ncpus=16:ngpus=0:mem=24G -l walltime=0:30:00
+qsub: waiting for job 314048.pbshpc to start
+qsub: job 314048.pbshpc ready
+
+cd /scratch/pbs/pbs.314048.pbshpc.x8z
+-bash-4.2$ cd /scratch/pbs/pbs.314048.pbshpc.x8z
+-bash-4.2$ cd ~
+-bash-4.2$ cd col380_a0/
+-bash-4.2$ ./run.sh
+Running for block size: 64
+You have generated the matrix correctly
+Time taken for matmul: 1.26 ms
+Your function computed the square correctly
+Size of S = 100000
+--------------------------------------
+Running for block size: 256
+You have generated the matrix correctly
+Time taken for matmul: 2.93 ms
+Your function computed the square correctly
+Size of S = 100000
+--------------------------------------
+Running for block size: 1024
+You have generated the matrix correctly
+Time taken for matmul: 22.45 ms
+Your function computed the square correctly
+Size of S = 100000
+--------------------------------------
+Running for block size: 4096
+You have generated the matrix correctly
+Time taken for matmul: 589.00 ms
+Your function computed the square correctly
+Size of S = 100000
+--------------------------------------
+-bash-4.2$ logout
+
+qsub: job 314048.pbshpc completed
+bash-4.2$ qsub -I -P col380.cs1211211.course -l select=1:ncpus=32:ngpus=0:mem=24G -l walltime=0:30:00
+qsub: waiting for job 314066.pbshpc to start
+qsub: job 314066.pbshpc ready
+
+cd /scratch/pbs/pbs.314066.pbshpc.x8z
+-bash-4.2$ cd /scratch/pbs/pbs.314066.pbshpc.x8z
+-bash-4.2$ cd ~
+-bash-4.2$ cd col380_a0/
+-bash-4.2$ ./run.sh
+Running for block size: 64
+You have generated the matrix correctly
+Time taken for matmul: 38.58 ms
+Your function did NOT compute the square correctly
+Size of S = 100000
+--------------------------------------
+Running for block size: 256
+You have generated the matrix correctly
+Time taken for matmul: 38.62 ms
+Your function computed the square correctly
+Size of S = 100000
+--------------------------------------
+Running for block size: 1024
+You have generated the matrix correctly
+Time taken for matmul: 51.38 ms
+Your function computed the square correctly
+Size of S = 100000
+--------------------------------------
+Running for block size: 4096
+You have generated the matrix correctly
+Time taken for matmul: 762.50 ms
+Your function computed the square correctly
+Size of S = 100000
+--------------------------------------
+-bash-4.2$ ./run.sh
+Running for block size: 64
+You have generated the matrix correctly
+Time taken for matmul: 38.71 ms
+Your function did NOT compute the square correctly
+Size of S = 100000
+--------------------------------------
+Running for block size: 256
+You have generated the matrix correctly
+Time taken for matmul: 35.54 ms
+Your function computed the square correctly
+Size of S = 100000
+--------------------------------------
+Running for block size: 1024
+You have generated the matrix correctly
+Time taken for matmul: 51.26 ms
+Your function computed the square correctly
+Size of S = 100000
+--------------------------------------
+Running for block size: 4096
+You have generated the matrix correctly
+Time taken for matmul: 460.18 ms
+Your function computed the square correctly
+Size of S = 100000
+--------------------------------------
+-bash-4.2$ ./run.sh
+Running for block size: 64
+You have generated the matrix correctly
+Time taken for matmul: 51.60 ms
+Your function did NOT compute the square correctly
+Size of S = 100000
+--------------------------------------
+Running for block size: 256
+You have generated the matrix correctly
+Time taken for matmul: 38.48 ms
+Your function computed the square correctly
+Size of S = 100000
+--------------------------------------
+Running for block size: 1024
+You have generated the matrix correctly
+Time taken for matmul: 44.88 ms
+Your function computed the square correctly
+Size of S = 100000
+--------------------------------------
+Running for block size: 4096
+You have generated the matrix correctly
+Time taken for matmul: 485.80 ms
+Your function computed the square correctly
+Size of S = 100000
+--------------------------------------
+-bash-4.2$ ./run.sh
+Running for block size: 64
+You have generated the matrix correctly
+Time taken for matmul: 38.47 ms
+Your function computed the square correctly
+Size of S = 100000
+--------------------------------------
+Running for block size: 256
+You have generated the matrix correctly
+Time taken for matmul: 54.25 ms
+Your function computed the square correctly
+Size of S = 100000
+--------------------------------------
+Running for block size: 1024
+You have generated the matrix correctly
+Time taken for matmul: 47.81 ms
+Your function computed the square correctly
+Size of S = 100000
+--------------------------------------
+Running for block size: 4096
+You have generated the matrix correctly
+Time taken for matmul: 479.56 ms
+Your function computed the square correctly
+Size of S = 100000
+--------------------------------------
+-bash-4.2$ logout
+
+qsub: job 314066.pbshpc completed
+bash-4.2$ qsub -I -P col380.cs1211211.course -l select=1:ncpus=40:ngpus=0:mem=24G -l walltime=0:30:00
+qsub: waiting for job 314094.pbshpc to start
+qsub: job 314094.pbshpc ready
+
+cd /scratch/pbs/pbs.314094.pbshpc.x8z
+-bash-4.2$ cd /scratch/pbs/pbs.314094.pbshpc.x8z
+-bash-4.2$ cd ~
+-bash-4.2$ cd col380_a0/
+-bash-4.2$ ./run.sh
+Running for block size: 64
+You have generated the matrix correctly
+Time taken for matmul: 1.82 ms
+Your function did NOT compute the square correctly
+Size of S = 100000
+--------------------------------------
+Running for block size: 256
+You have generated the matrix correctly
+Time taken for matmul: 4.27 ms
+Your function computed the square correctly
+Size of S = 100000
+--------------------------------------
+Running for block size: 1024
+You have generated the matrix correctly
+Time taken for matmul: 32.17 ms
+Your function computed the square correctly
+Size of S = 100000
+--------------------------------------
+Running for block size: 4096
+You have generated the matrix correctly
+Time taken for matmul: 492.86 ms
+Your function computed the square correctly
+Size of S = 100000
+--------------------------------------
+-bash-4.2$ ./run.sh
+Running for block size: 64
+You have generated the matrix correctly
+Time taken for matmul: 1.78 ms
+Your function computed the square correctly
+Size of S = 100000
+--------------------------------------
+Running for block size: 256
+You have generated the matrix correctly
+Time taken for matmul: 4.26 ms
+Your function computed the square correctly
+Size of S = 100000
+--------------------------------------
+Running for block size: 1024
+You have generated the matrix correctly
+Time taken for matmul: 32.01 ms
+Your function computed the square correctly
+Size of S = 100000
+--------------------------------------
+Running for block size: 4096
+You have generated the matrix correctly
+Time taken for matmul: 496.58 ms
+Your function computed the square correctly
+Size of S = 100000
+--------------------------------------
+-bash-4.2$ 
